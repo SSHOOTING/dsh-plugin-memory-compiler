@@ -19,7 +19,9 @@ Requires Node `^22.19.0 || >=24` and DSH `>=0.2.0-rc.2 <0.3.0`.
 3. You get a compact, read-only report; use `/memory-compile --json` for machine-readable output.
 
 ```text
-[memory-compile] report — see --json for full data
+[memory-compile] 1 memory entry(s): 1 decision, 0 constraint, 0 open
+  [DECISION] I decided to use the free route and will verify the result. Must not exceed budget.  ← event#8
+Review each entry before saving to long-term memory.
 ```
 
 ## What it reads
